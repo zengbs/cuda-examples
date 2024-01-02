@@ -4,7 +4,12 @@
 #include <stdlib.h>
 
 
-#include "headers.h"
+#include "macros.h"
+
+
+
+unsigned long Time = 0;
+
 
 
 __global__ void ReduceNeighbored( int *g_array, int *g_output, int arrayLength ){

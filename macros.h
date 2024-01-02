@@ -1,5 +1,5 @@
-#ifndef __HEADERS_H__
-#define __HEADERS_H__
+#ifndef __MACROS_H__
+#define __MACROS_H__
 
 
 #define CHECK(call)                                                        \
